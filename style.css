@@ -1,0 +1,79 @@
+html{
+     min-height:100%;
+    font-family: courier new;
+     
+}
+
+body{
+   height:100%;
+
+}
+
+header{
+    background-color:aliceblue;
+}
+
+.section_header{
+    color:brown !important;
+    width:100%;
+/*    text-align:center !important;*/
+    display: inline-block;
+/*    vertical-align:middle;*/
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+
+Mfont{
+     font-family: sans-serif;
+    font-size:2em
+}
+
+Sfont{
+   
+    font-size:1em
+}
+
+
+
+#sidebar{
+    background-color: powderblue;
+    height:100%;
+    display: inline-block;
+    width:200px;
+    position:fixed;
+    z-index:-1;
+  
+    
+
+/*    height:1000px;*/
+/*    position:relative;*/
+    
+}
+
+#rightbody{
+    position:absolute;
+    display:inline-block;
+    left:210px;
+
+    
+}
+
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+} 
